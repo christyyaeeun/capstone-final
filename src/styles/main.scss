@@ -1,0 +1,180 @@
+@import '_variables';
+@import 'typography';
+
+/* Reset Box Model */
+* {
+ box-sizing: border-box;
+}
+
+/* Body and HTML Styles */
+body,
+html {
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ color: $theme-color;
+ font-family: Karla, sans-serif;
+ font-size: 1rem;
+ line-height: 1.5;
+ position: relative;
+ min-height: 100%;
+ margin: 0;
+ font-feature-settings: 'kern';
+}
+
+/* Shared Input Styles */
+.shared-input-styles {
+ box-sizing: border-box;
+ margin-bottom: $space-3;
+ padding-inline-start: $space-4;
+ padding-inline-end: $space-4;
+ border-radius: $cpark-borderRadius-md;
+ outline: 2px solid transparent;
+ outline-offset: 2px;
+ position: relative;
+ transition: $cpark-transition-property-common $cpark-transition-duration-normal;
+ border: 1px solid;
+ border-color: inherit;
+ background: inherit;
+}
+
+/* Input Styles */
+.input {
+ @extend .shared-input-styles;
+ height: $cpark-sizes-8;
+
+ &.select {
+  appearance: none;
+  /* Add other custom styling as needed */
+ }
+}
+
+/* Text Area Styles */
+.textArea {
+ @extend .shared-input-styles;
+ height: auto;
+ max-height: fit-content;
+ padding-top: 0.5rem;
+ margin-bottom: 0;
+}
+
+/* Label Styles */
+.label {
+ display: block;
+ text-align: start;
+ font-size: $fontSizes-md;
+ margin-inline-end: $space-3;
+ font-weight: $cpark-fontWeights-semibold;
+ opacity: 1;
+ line-height: normal;
+ margin-bottom: 0.5rem;
+
+ &:hover {
+  /* Add hover styles as needed */
+  opacity: 0.8;
+ }
+}
+.formField {
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+ cursor: pointer;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ max-width: 28.125rem;
+ padding: 3rem 2rem;
+}
+
+.booking form {
+ margin: 0 auto 1.875rem auto;
+}
+
+/* Action Button Styles */
+.actionBtn {
+ border-radius: 0.2rem;
+ width: 100%;
+ font-family: 'Karla';
+ font-size: 1.3rem;
+ padding: 0.5rem 1rem;
+ background-color: $highlight-color;
+ color: $color-black;
+ font-weight: bold;
+ border: 0.1875rem solid $highlight-color;
+ text-decoration: none;
+ transition: background, border, color 0.5s;
+ &:hover {
+  background-color: $color-dark;
+  color: #eeeeee;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #edefee;
+  transition: 0.2s;
+ }
+}
+
+/* Heading Styles */
+h1,
+h2 {
+ line-height: 1;
+ font-family: 'Markazi Text';
+ font-weight: normal;
+}
+
+h1 {
+ font-size: $fontSizes-h1;
+}
+
+h2 {
+ font-size: $fontSizes-h2;
+ @media (max-width: 768px) {
+  font-size: $fontSizes-3xl;
+ }
+}
+
+/* Container Styles */
+.container,
+.mainContainer {
+ max-width: 75rem;
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.mainContainer {
+ width: 90%;
+ padding: 2em 0;
+}
+
+/* Grid Styles */
+.grid {
+ display: grid;
+}
+
+/* Image Styles */
+img {
+ max-width: 100%;
+}
+
+.primaryBtn {
+ padding: 0.5rem 1rem;
+ border-radius: 2rem;
+ background-color: $highlight-color;
+ color: $color-black;
+ font-weight: bold;
+ border: 0.1875rem solid $highlight-color;
+ text-decoration: none;
+ transition: background, border, color 0.5s;
+}
+
+.primaryBtn:hover,
+.primaryBtn:focus {
+ background-color: $theme-color;
+ border-color: $theme-color;
+ color: #ffffff;
+}

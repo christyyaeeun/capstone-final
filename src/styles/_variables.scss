@@ -1,0 +1,103 @@
+// Fonts
+$cpark-fonts-heading: 'EB Garamond', Garamond, 'Times New Roman', Times, serif;
+$cpark-fonts-body: 'Karla', sans-serif, 'Times New Roman', Times, serif;
+
+// Font Sizes
+$fontSizes-sm: 0.875rem;
+$fontSizes-md: 1rem;
+$fontSizes-lg: 1.125rem;
+$fontSizes-xl: 1.25rem;
+$fontSizes-2xl: 1.5rem;
+$fontSizes-3xl: 2rem;
+$fontSizes-4xl: 2.5rem;
+$fontSizes-5xl: 3rem;
+
+$fontSizes-h1: 3.5rem;
+$fontSizes-h2: 2.5rem;
+$fontSizes-h3: 1.875rem;
+$fontSizes-h4: 1.5rem;
+$fontSizes-h5: 1.25rem;
+$fontSizes-p: 1rem;
+
+//Box Shadows
+$shadows-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadows-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadows-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadows-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadows-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$shadows-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+// Breakpoints
+$breakpoints-base: 0em;
+$breakpoints-sm: 30em;
+$breakpoints-md: 48em;
+$breakpoints-lg: 62em;
+$breakpoints-xl: 80em;
+$breakpoints-2xl: 96em;
+
+// Font weights
+$cpark-fontWeights-hairline: 100;
+$cpark-fontWeights-thin: 200;
+$cpark-fontWeights-light: 300;
+$cpark-fontWeights-normal: 400;
+$cpark-fontWeights-medium: 500;
+$cpark-fontWeights-semibold: 600;
+$cpark-fontWeights-bold: 700;
+$cpark-fontWeights-extrabold: 800;
+$cpark-fontWeights-black: 900;
+
+// Spacing
+$space-1: 0.25rem;
+$space-2: 0.5rem;
+$space-3: 0.75rem;
+$space-4: 1rem;
+$space-5: 1.25rem;
+$space-6: 1.5rem;
+$space-7: 1.75rem;
+$space-8: 2rem;
+$space-9: 2.25rem;
+$space-10: 2.5rem;
+
+// Radii
+$cpark-borderRadius-none: 0;
+$cpark-borderRadius-sm: 0.125rem;
+$cpark-borderRadius-base: 0.25rem;
+$cpark-borderRadius-md: 0.375rem;
+$cpark-borderRadius-lg: 0.5rem;
+$cpark-borderRadius-xl: 0.75rem;
+$cpark-borderRadius-2xl: 1rem;
+$cpark-borderRadius-3xl: 1.5rem;
+$cpark-borderRadius-full: 9999px;
+
+// Sizes
+$cpark-sizes-1: 0.25rem;
+$cpark-sizes-2: 0.5rem;
+$cpark-sizes-3: 0.75rem;
+$cpark-sizes-4: 1rem;
+$cpark-sizes-5: 1.25rem;
+$cpark-sizes-6: 1.5rem;
+$cpark-sizes-7: 1.75rem;
+$cpark-sizes-8: 2rem;
+$cpark-sizes-9: 2.25rem;
+$cpark-sizes-10: 2.5rem;
+
+// Transition properties
+$cpark-transition-property-common: background-color, border-color, color, fill, stroke, opacity,
+ box-shadow, transform;
+$cpark-transition-property-colors: background-color, border-color, color, fill, stroke;
+$cpark-transition-property-dimensions: width, height;
+$cpark-transition-property-position: left, right, top, bottom;
+$cpark-transition-property-background: background-color, background-image, background-position;
+$cpark-transition-duration-normal: 200ms;
+
+// Transition easings
+$cpark-transition-easing-ease-in: cubic-bezier(0.4, 0, 1, 1);
+$cpark-transition-easing-ease-out: cubic-bezier(0, 0, 0.2, 1);
+$cpark-transition-easing-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+// Colors
+$theme-color: #495e57;
+$highlight-color: #f4ce14;
+$color-light: #ffffff;
+$color-dark: #2d3748;
+$color-black: #000000;

@@ -1,0 +1,140 @@
+@import '_variables';
+
+.displayTitle {
+ font-family: 'Markazi Text', serif;
+ font-weight: 500;
+ font-size: 4em;
+ line-height: auto;
+}
+.subtitle {
+ font-family: 'Markazi Text', serif;
+ font-weight: 400;
+ font-size: 2.3em;
+ //  letter-spacing: -1px;
+}
+.leadText {
+ font-family: 'Karla', sans-serif;
+ font-size: $fontSizes-md;
+ font-weight: 500;
+}
+
+.sectionTitle {
+ font-family: 'Karla', sans-serif;
+ font-size: 1em;
+ font-weight: extra-bold;
+}
+
+.sectionCategory {
+ font-family: 'Karla', sans-serif;
+ font-weight: extra-bold;
+ font-size: 0.875em;
+}
+
+.cardTitle {
+ font-family: 'Karla', sans-serif;
+ font-weight: bold;
+ font-size: 1.125em;
+}
+
+.paragraphText {
+ font-family: 'Karla', sans-serif;
+ font-weight: regular;
+ font-size: 1em;
+ line-height: 1.5;
+}
+
+.highlightText {
+ font-family: 'Karla', sans-serif;
+ font-weight: medium;
+ font-size: 1em;
+}
+
+.heading {
+ font-family: $cpark-fonts-heading;
+ font-size: $fontSizes-2xl;
+ font-weight: $cpark-fontWeights-bold;
+ color: #333;
+}
+
+.title {
+ font-family: $cpark-fonts-heading;
+ font-size: $fontSizes-3xl;
+ font-weight: $cpark-fontWeights-medium;
+ margin-block-start: 1em;
+ margin-block-end: 0.7em;
+}
+
+.confirmTitle {
+ font-family: 'Markazi Text', serif;
+ font-weight: 400;
+ line-height: 1;
+ color: $theme-color;
+ font-size: $fontSizes-4xl;
+}
+
+.description {
+ font-family: $cpark-fonts-heading;
+ font-weight: $cpark-fontWeights-medium;
+ font-size: $fontSizes-md;
+}
+
+.subheading {
+ font-family: 'Karla', sans-serif;
+ font-size: $fontSizes-md;
+ font-weight: $cpark-fontWeights-medium;
+ color: $theme-color;
+}
+
+.text {
+ font-family: $cpark-fonts-body;
+ font-size: $fontSizes-md;
+ font-weight: $cpark-fontWeights-normal;
+ color: #333;
+}
+
+.link {
+ color: black;
+ font-size: $fontSizes-lg;
+
+ &:hover {
+  color: #4a5568;
+ }
+}
+
+@media (max-width: 767px) {
+ .heading {
+  font-size: $fontSizes-xl;
+ }
+
+ .title {
+  font-size: $fontSizes-2xl;
+ }
+
+ .confirmTitle {
+  font-size: $fontSizes-2xl;
+ }
+
+ .description {
+  font-size: $fontSizes-sm;
+ }
+
+ .text {
+  font-size: $fontSizes-sm;
+ }
+
+ .link {
+  font-size: $fontSizes-md;
+ }
+}
+
+@media screen and (max-width: 991px) {
+ .confirmTitle {
+  font-size: $fontSizes-3xl;
+ }
+}
+
+@media screen and (min-width: 1200px) {
+ .subheading {
+  font-size: $fontSizes-lg;
+ }
+}

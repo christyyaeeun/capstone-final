@@ -1,0 +1,104 @@
+.headerContainer {
+ background-color: #495e57;
+ color: white;
+ padding: 20px 40px;
+}
+
+.cta {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.headingText {
+ > h1 {
+  margin-top: 0;
+  margin-bottom: -1.5rem;
+  color: #f4ce14;
+ }
+
+ > h2 {
+  font-size: 3.5rem;
+ }
+
+ > p {
+  margin-bottom: 2em;
+ }
+}
+
+.heroImage {
+ max-height: 17rem;
+ padding-left: 2rem;
+
+ > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+}
+
+.subsection {
+ margin-top: -2rem;
+}
+
+.actionBtn {
+ background-color: #f4ce14;
+ padding: 0.5rem 1rem;
+ border-radius: 0.2rem;
+ font-family: 'Karla';
+ font-size: 1.4rem;
+ text-decoration: none;
+ color: black;
+ margin-top: 5em;
+
+ &:hover {
+  background-color: #495e57;
+  color: #eeeeee;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #edefee;
+  transition: 0.2s;
+ }
+}
+
+@media screen and (max-width: 50rem) {
+ .headingText {
+  > p {
+   font-size: 0.8rem;
+  }
+ }
+}
+
+@media screen and (max-width: 60rem) {
+ .actionBtn {
+  font-size: 1.2rem;
+ }
+}
+
+@media screen and (max-width: 600px) {
+ .heroImage {
+  display: none; /* Hide the heroImage on small screens */
+ }
+
+ .cta {
+  grid-template-columns: 1fr; /* Adjust the grid to a single column */
+  padding: 1.25rem 0;
+ }
+
+ .headingText {
+  > h1 {
+   font-size: 3rem;
+   margin-bottom: -1rem;
+  }
+
+  > h2 {
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+  }
+ }
+
+ .actionBtn {
+  margin-top: 2em;
+ }
+}

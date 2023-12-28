@@ -1,0 +1,49 @@
+// Confirmation Page
+.confirmation {
+ display: flex;
+ flex-direction: column;
+ min-height: 31.25rem;
+ padding: 10vw 5vw 5vw;
+ text-align: center;
+ row-gap: 15px;
+
+ @media (max-width: 767px) {
+  padding: 15vw 5vw 5vw;
+ }
+
+ .confirmationRes {
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  margin: 0 auto;
+  p {
+   text-align: left;
+   margin: 8px 0;
+  }
+
+  // Add any additional styles for the confirmationRes div here
+ }
+}
+
+// RsvpForm Styles
+.reservation {
+ display: flex;
+ justify-content: center;
+ padding: 2em 0 4em;
+
+ .rsvpForm {
+  //   max-width: 320px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: flex-start;
+  margin: 0 auto 1.8rem auto;
+
+  .centerButton {
+   text-align: center;
+   margin-top: 2em;
+  }
+ }
+}
